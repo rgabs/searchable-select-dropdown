@@ -21,7 +21,7 @@ new Vue({
 ```
 
 ###If you are not using webpack/browserify
-Add `selectToSearch.js and selectToSearch.css` to your html file and use the component.
+Add `selectToSearch-es5.js and selectToSearch.css` to your html file and use the component.
 
 
 ## Usage
@@ -47,5 +47,3 @@ Pass the select component's id and modelValue (containing text and value keys) a
   <img align="top" width="200" src="images/usage.png?raw=true" alt="usage">
   <img align="top" width="200" style="vertical-align:top" src="images/typeahead.png?raw=true" alt="usage">
 </p>
-
-
