@@ -1,5 +1,6 @@
-(function(Vue) {
   'use strict';
+
+  var Vue = require('vue');
 
   function getDropdownDataFromSelect(selectDom) {
     const dropdownOptionDoms = selectDom.options;
@@ -69,6 +70,4 @@
       }
     }
   });
-  Vue.component("searchable-dropdown", searchableDropdown);
-
-})(Vue);
+  module.exports = searchableDropdown;
