@@ -4,7 +4,7 @@
   "description": "A Vue Component to convert the native html select-dropdown to searchable dropdown (something similar to the datalist html tag which isn't supportted in most of the browsers)",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "open index.html"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,48 @@
+.overflow-effect {
+  -webkit-overflow-scrolling: touch;
+  background: linear-gradient(white 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), white 70%) 0 100%, radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, 0.2), transparent), radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, 0.2), transparent) 0 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+  background-attachment: local, local, scroll, scroll;
+}
+.search-container {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+}
+.search-container .search-input {
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border: 1px solid #03AEEF;
+  border-radius: 5px;
+}
+.search-list {
+  margin-top: 5px;
+  border: 1px solid #03AEEF;
+  border-radius: 5px;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  max-height: 235px;
+  overflow-y: scroll;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+.search-list .search-name {
+  padding: 8px;
+  border-bottom: 1px solid rgba(3, 174, 239, 0.2);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.search-name:hover {
+  background-color: #03AEEF;
+  color: white;
+}
+.search-name:last-of-type {
+  border: none;
+}
