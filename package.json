@@ -11,7 +11,7 @@
     "url": "git+https://github.com/rahulgaba16/searchable-select-dropdown.git"
   },
   "dependencies": {
-    "vue": "^1.0.21",
+    "vue": "^1.0.21"
   },
   "keywords": [
     "vue",
