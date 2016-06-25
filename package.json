@@ -1,7 +1,7 @@
 {
   "name": "select-typeahead-vue",
-  "version": "0.0.4",
-  "description": "A Vue Component to convert the native html select-dropdown to searchable dropdown (something similar to the datalist html tag which isn't supportted in most of the browsers)",
+  "version": "0.0.5",
+  "description": "A Vue Component to convert the native html select-dropdown to searchable dropdown (something similar to the datalist html tag which isn't supported in most of the browsers)",
   "main": "selectToSearch.js",
   "scripts": {
     "test": "open index.html"
