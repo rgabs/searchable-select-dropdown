@@ -13,8 +13,11 @@ Pass the select component's id and modelValue (containing text and value keys) a
 
 <p align="center">
   <br>
-  <img width="200" src="images/usage.png?raw=true" alt="usage">
-  <img width="200" style="vertical-align:top" src="images/typeahead.png?raw=true" alt="usage">
+  <!--Native HTML Select Tag-->
+  <img width="200" src="images/native.png?raw=true" alt="select">
+  <!--VueJS Component-->
+  <img align="top" width="200" src="images/usage.png?raw=true" alt="usage">
+  <img align="top" width="200" style="vertical-align:top" src="images/typeahead.png?raw=true" alt="usage">
 </p>
 
 
