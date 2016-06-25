@@ -1,0 +1,25 @@
+{
+  "name": "select-typeahead",
+  "version": "0.0.1",
+  "description": "A Vue Component to convert the native html select-dropdown to searchable dropdown (something similar to the datalist html tag which isn't supportted in most of the browsers)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulgaba16/searchable-select-dropdown.git"
+  },
+  "keywords": [
+    "searchable",
+    "select",
+    "dropdown",
+    "typeahead"
+  ],
+  "author": "rahulgaba16@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulgaba16/searchable-select-dropdown/issues"
+  },
+  "homepage": "https://github.com/rahulgaba16/searchable-select-dropdown#readme"
+}
