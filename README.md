@@ -2,7 +2,7 @@
 A Vue Component to convert the native html select-dropdown to searchable dropdown (something similar to the datalist html tag which isn't supported in most of the browsers)
 
 ##Installation
-Add `selectToSearch.js and selectToSearch.css to your html file and use the component`.
+Add `selectToSearch.js and selectToSearch.css` to your html file and use the component.
 
 If you are using webpack/browserify, just do  `require selectToSearch.js` and `require selectToSearch.css`.
 
