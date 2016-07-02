@@ -25,7 +25,7 @@ function getSelectedOption(selectDom) {
 const searchableDropdown = Vue.extend({
   template: `
   <div class="search-container">
-    <input placeholder="Please start typing.." class="search-input" @keyup="showList=true" v-model='selectedValue.text' @blur="hideList"/>
+    <input placeholder="Please start typing.." class="search-input" @keyup="showList=true" v-model='selectedValue.text' v-on:click.stop/>
     <ul v-show='showList' class="search-list overflow-effect text-left" >
       <li class="search-name cursor" v-for="optionData in dropdownData | filterBy selectedValue.text"  v-on:click="setSelectedValue(optionData)">
         {{optionData.text}}
@@ -49,9 +49,7 @@ const searchableDropdown = Vue.extend({
         this.selectedValue.text = '';
         this.selectedValue.value = 0;
       }
-      setTimeout(() => {
-        this.showList = false;
-      }, 300);
+      this.showList = false;
     }
   },
   data() {
@@ -82,6 +80,7 @@ const searchableDropdown = Vue.extend({
       this.dropdownData = getDropdownDataFromSelect(selectDom, this.selectedValue);
       this.selectedValue = getSelectedOption(selectDom);
     }
+    document.onclick = this.hideList;
   }
 });
 module.exports = searchableDropdown;
