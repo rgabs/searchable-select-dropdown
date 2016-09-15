@@ -1,6 +1,8 @@
 # Searchable-Select-Dropdown
 A Vue Component to convert the native html select-dropdown to searchable dropdown (something similar to the datalist html tag which isn't supported in most of the browsers)
 
+NPM: https://www.npmjs.com/package/select-typeahead-vue
+
 ##Installation
 
 ###If you are using webpack/browserify
