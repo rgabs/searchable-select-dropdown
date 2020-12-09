@@ -3,9 +3,9 @@ A Vue Component to convert the native html select-dropdown to searchable dropdow
 
 NPM: https://www.npmjs.com/package/select-typeahead-vue
 
-##Installation
+## Installation
 
-###If you are using webpack/browserify
+### If you are using webpack/browserify
 
 ```
 import searchableDropdown from 'select-typeahead';
@@ -22,7 +22,7 @@ new Vue({
 })
 ```
 
-###If you are not using webpack/browserify
+### If you are not using webpack/browserify
 Add `selectToSearch-es5.js and selectToSearch.css` to your html file and use the component.
 
 
@@ -31,19 +31,19 @@ Pass the select component's id and modelValue (containing text and value keys) a
 
 `<searchable-dropdown replace-with="#native-select-box" :selected-value.sync='selectedData'></searchable-dropdown>`
 
-##Screenshots
+## Screenshots
 
 
 ![Alt text](images/example_code.png?raw=true "Example Code")
 
-###Native HTML Select Tag
+### Native HTML Select Tag
 <p align="center">
   <br>
   <img align="top" width="200" src="images/native.png?raw=true" alt="select">
   <img align="top" width="200" src="images/native-opened.png?raw=true" alt="usage">
 </p>
 
-###VueJS Component
+### VueJS Component
 <p align="center">
   <br>
   <img align="top" width="200" src="images/usage.png?raw=true" alt="usage">
